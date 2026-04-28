@@ -1,8 +1,8 @@
 import { MessageCircle } from "lucide-react";
 import { useEffect, useState } from "react";
-import product1 from "@/assets/image1.png";
-import product2 from "@/assets/image2.png";
-import product3 from "@/assets/image3.png";
+import product1 from "../assets/image1.png";
+import product2 from "../assets/image2.png";
+import product3 from "../assets/image3.png";
 
 const WHATSAPP_URL = "https://wa.me/521234567890?text=Hola%2C%20me%20interesan%20sus%20cosmetiqueras";
 

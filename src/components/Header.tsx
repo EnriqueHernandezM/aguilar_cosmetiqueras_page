@@ -1,6 +1,6 @@
 import { ArrowUp, Eye } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "@/assets/logo.png";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [atModelos, setAtModelos] = useState(false);

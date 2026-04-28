@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { Camera, ChevronLeft, ChevronRight, X, Palette } from "lucide-react";
-import barcoDoradoFrente from "@/assets/barco_dorada_frente.png";
-import barcoDoradoLateral from "@/assets/barco-dorado-lateral.png";
-import barcoDoradoSuperior from "@/assets/barco-dorada-superior.png";
+import barcoDoradoFrente from "../assets/barco_dorada_frente.png";
+import barcoDoradoLateral from "../assets/barco-dorado-lateral.png";
+import barcoDoradoSuperior from "../assets/barco-dorada-superior.png";
 
-import redondaLilaOrquidia from "@/assets/lila-orquidia.png";
-import redondaLilaOrquidiaLateral from "@/assets/lila-orquidia-lateral.png";
-import redondaLilaOrquidiaSuperior from "@/assets/lila-orquidia-superior.png";
+import redondaLilaOrquidia from "../assets/lila-orquidia.png";
+import redondaLilaOrquidiaLateral from "../assets/lila-orquidia-lateral.png";
+import redondaLilaOrquidiaSuperior from "../assets/lila-orquidia-superior.png";
 
-import cuadradaRosaFrente from "@/assets/cuadrada-rosa-aperlado.png";
-import cuadradaRosaLateral from "@/assets/cuadrada-rosa-lateral.png";
-import cuadradaRosaSuperior from "@/assets/cuadrada-rosa-superior.png";
+import cuadradaRosaFrente from "../assets/cuadrada-rosa-aperlado.png";
+import cuadradaRosaLateral from "../assets/cuadrada-rosa-lateral.png";
+import cuadradaRosaSuperior from "../assets/cuadrada-rosa-superior.png";
 
 type ColorOption = {
   name: string;
