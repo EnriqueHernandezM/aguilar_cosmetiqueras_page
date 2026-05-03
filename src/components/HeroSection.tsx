@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 import { useEffect, useState } from "react";
-import product1 from "../assets/image1.png";
-import product2 from "../assets/image2.png";
+import product1 from "../assets/principal1.jpeg";
+import product2 from "../assets/principal2.jpeg";
 import product3 from "../assets/image3.png";
 
 const WHATSAPP_URL = "https://wa.me/521234567890?text=Hola%2C%20me%20interesan%20sus%20cosmetiqueras";
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 }}
                 onClick={() => setCurrent(i)}
               >
-                <img src={img} alt={`Cosmetiquera modelo ${i + 1}`} width={400} height={400} className="w-100 h-80  md:w-80 md:h-64 object-center rounded-3xl shadow-float" />
+                <img src={img} alt={`Cosmetiquera modelo ${i + 1}`} width={400} height={400} className="w-100 h-80 md:w-80 md:h-64 object-center rounded-3xl shadow-float" />
               </div>
             );
           })}

@@ -1,6 +1,6 @@
 export default function CatalogSection() {
   return (
-    <section className="w-full flex justify-center py-16 bg-[#f8f5f2]">
+    <section className="w-full flex justify-center py-6 bg-[#f8f5f2]">
       <div className="w-full max-w-5xl px-6">
         <div className="bg-gradient-to-br from-[#f3e7e4] to-[#f8f5f2] rounded-3xl p-10 text-center shadow-sm border border-[#eaded9]">
           {/* Título */}

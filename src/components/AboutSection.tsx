@@ -1,4 +1,4 @@
-import aboutImg from "../assets/image1.png";
+import aboutImg from "../assets/about1.jpeg";
 
 const AboutSection = () => {
   return (
@@ -18,7 +18,7 @@ const AboutSection = () => {
               acabado premium.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Trabajamos directamente con mayoristas, revendedores y emprendedoras que buscan productos confiables para hacer crecer su negocio. Envíos a todo México con entregas a domicilio.
+              Trabajamos directamente con mayoristas, revendedores, emprendedoras y eventos que buscan productos confiables. Envíos a todo México con entregas a domicilio.
             </p>
           </div>
         </div>

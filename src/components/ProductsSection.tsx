@@ -4,13 +4,47 @@ import barcoDoradoFrente from "../assets/barco_dorada_frente.png";
 import barcoDoradoLateral from "../assets/barco-dorado-lateral.png";
 import barcoDoradoSuperior from "../assets/barco-dorada-superior.png";
 
+import barcoRosaPinkFrente from "../assets/barco-rosa-pink-frente.png";
+import barcoRosaPinkLateral from "../assets/barco-rosa-pink-lateral.png";
+import barcoRosaPinkSuperior from "../assets/barco-rosa-pink-superior.png";
+
+import barcoVerdeMentaeFrente from "../assets/barco-verde-menta-frente.png";
+import barcoVerdeMentaLatera from "../assets/barco-verde-mente-lateral.png";
+import barcoVerdeMentaSuperior from "../assets/barco-verde-mente-superior.png";
+
+import barcoLilaOrquideaFrente from "../assets/barco-lila-orquidea-frente.png";
+import barcoLilaOrquideaLateral from "../assets/barco-laila-orquide-lateral.png";
+import barcoLilaOrquideaSuperior from "../assets/barco-lila-orquidea-superior.png";
+
 import redondaLilaOrquidia from "../assets/lila-orquidia.png";
 import redondaLilaOrquidiaLateral from "../assets/lila-orquidia-lateral.png";
 import redondaLilaOrquidiaSuperior from "../assets/lila-orquidia-superior.png";
 
+import redondaVerdeManzanaFrente from "../assets/redonda-verde-manzana-frente.png";
+import redondaVerdeManzanaLateral from "../assets/redonda-verde-manzana-lateral.png";
+import redondaVerdeManzanaSuperior from "../assets/redonda-verde-manzana-superior.png";
+
+import redondaAmarillaFrente from "../assets/redonda-amarilla-frente.png";
+import redondaAmarillaLateral from "../assets/redonda-amarilla-lateral.png";
+
 import cuadradaRosaFrente from "../assets/cuadrada-rosa-aperlado.png";
 import cuadradaRosaLateral from "../assets/cuadrada-rosa-lateral.png";
 import cuadradaRosaSuperior from "../assets/cuadrada-rosa-superior.png";
+
+import cuadradaGrisFrente from "../assets/cuadrada-gris-frente.png";
+import cuadradaGrisLateral from "../assets/cuadrada-gris-lateral.png";
+import cuadradaGrisSuperior from "../assets/cuadrada-gris-superior.png";
+
+import cuadradaPerlaFrente from "../assets/cuadrada-perla-frente.png";
+import cuadradaPerlaLateral from "../assets/cuadrada-perla-lateral.png";
+import cuadradaPerlaSuperior from "../assets/cuadrada-perla-superior.png";
+
+import cuadradaRojaFrente from "../assets/cuadrada-roja-frente.png";
+import cuadradaRojaLateral from "../assets/cuadrada-roja-lateral.png";
+import cuadradaRojaSuperior from "../assets/cuadrada-roja-superior.png";
+
+import personalizada1 from "../assets/personalizadas1.png";
+import personalizada2 from "../assets/pesonalizadas2.png";
 
 type ColorOption = {
   name: string;
@@ -30,9 +64,10 @@ const products: {
     dims: "17 cm de largo × 9 cm de ancho x 8 cm de alto",
     desc: "Diseño compacto ideal para el día a día.",
     colors: [
-      { name: "Rosa", hex: "#E8B4B8", gallery: [cuadradaRosaFrente, cuadradaRosaLateral, cuadradaRosaSuperior] },
-      { name: "Beige", hex: "#D7C4A3", gallery: [redondaLilaOrquidia, redondaLilaOrquidiaLateral, cuadradaRosaSuperior] },
-      { name: "Nude", hex: "#E5C9B5", gallery: [cuadradaRosaFrente, cuadradaRosaLateral, cuadradaRosaSuperior] },
+      { name: "Rosa Perla", hex: "#E8B4B8", gallery: [cuadradaRosaFrente, cuadradaRosaLateral, cuadradaRosaSuperior] },
+      { name: "Gris", hex: "#c0b9b1", gallery: [cuadradaGrisFrente, cuadradaGrisLateral, cuadradaGrisSuperior] },
+      { name: "Perla", hex: "#dad2c7", gallery: [cuadradaPerlaFrente, cuadradaPerlaLateral, cuadradaPerlaSuperior] },
+      { name: "Roja", hex: "#bd071d", gallery: [cuadradaRojaFrente, cuadradaRojaLateral, cuadradaRojaSuperior] },
     ],
   },
   {
@@ -41,8 +76,9 @@ const products: {
     desc: "Amplio espacio ideal para viajes.",
     colors: [
       { name: "Oro rosado", hex: "#cda88e", gallery: [barcoDoradoFrente, barcoDoradoLateral, barcoDoradoSuperior] },
-      { name: "Rosa", hex: "#E8C5C1", gallery: [barcoDoradoFrente, barcoDoradoLateral, barcoDoradoSuperior] },
-      { name: "Arena", hex: "#C9B79C", gallery: [barcoDoradoFrente, barcoDoradoLateral, barcoDoradoSuperior] },
+      { name: "Rosa pink", hex: "#d37ba3", gallery: [barcoRosaPinkFrente, barcoRosaPinkLateral, barcoRosaPinkSuperior] },
+      { name: "Verde menta", hex: "#8cbba7", gallery: [barcoVerdeMentaeFrente, barcoVerdeMentaLatera, barcoVerdeMentaSuperior] },
+      { name: "Lila orquidea", hex: "#ab94e2", gallery: [barcoLilaOrquideaFrente, barcoLilaOrquideaLateral, barcoLilaOrquideaSuperior] },
     ],
   },
   {
@@ -50,9 +86,9 @@ const products: {
     dims: "28 cm × 16 cm",
     desc: "Compartimentos internos y bolsillos con cierre. Organiza todo tu maquillaje.",
     colors: [
-      { name: "Champagne", hex: "#E6D5B8", gallery: [redondaLilaOrquidia, redondaLilaOrquidiaLateral, redondaLilaOrquidiaSuperior] },
-      { name: "Rosa", hex: "#E8B4B8", gallery: [redondaLilaOrquidia, redondaLilaOrquidiaLateral, redondaLilaOrquidiaSuperior] },
-      { name: "Cacao", hex: "#B89B7A", gallery: [redondaLilaOrquidia, redondaLilaOrquidiaLateral, redondaLilaOrquidiaSuperior] },
+      { name: "Lila orquidea", hex: "#ab94e2", gallery: [redondaLilaOrquidia, redondaLilaOrquidiaLateral, redondaLilaOrquidiaSuperior] },
+      { name: "Verde manzana", hex: "#8db62a", gallery: [redondaVerdeManzanaFrente, redondaVerdeManzanaLateral, redondaVerdeManzanaSuperior] },
+      { name: "Amarilla", hex: "#d6aa16", gallery: [redondaAmarillaFrente, redondaAmarillaLateral] },
     ],
   },
   {
@@ -60,7 +96,7 @@ const products: {
     dims: "28 cm × 16 cm",
     desc: "Compartimentos internos y bolsillos con cierre. Organiza todo tu maquillaje.",
 
-    colors: [{ name: "Multicolor", gradient: "linear-gradient(135deg, #E6D5B8, #f1c27d, #d89c8a, #cdb4db, #bde0fe, #f3e7e4)", gallery: [redondaLilaOrquidia, redondaLilaOrquidiaLateral, redondaLilaOrquidiaSuperior] }],
+    colors: [{ name: "Multicolor", gradient: "linear-gradient(135deg, #E6D5B8, #f1c27d, #d89c8a, #cdb4db, #bde0fe, #f3e7e4)", gallery: [personalizada2, personalizada1, personalizada2] }],
   },
 ];
 
@@ -178,11 +214,13 @@ const ProductsSection = () => {
                     <div className="absolute bottom-6 right-6 h-28 w-28 rounded-full bg-[radial-gradient(circle,_rgba(230,201,181,0.36)_0%,_rgba(230,201,181,0)_74%)]" />
                     <div className="product-frame relative aspect-square transition-transform duration-500 group-hover:scale-[1.02]">
                       <div className="product-frame__glow" />
-                      <img src={color.gallery[0]} alt={`${p.name} - ${color.name}`} loading="lazy" width={800} height={800} className="product-frame__image p-6" />
+                      <img onClick={() => openModal(i)} src={color.gallery[0]} alt={`${p.name} - ${color.name}`} loading="lazy" width={800} height={800} className="cursor-pointer product-frame__image p-6" />
                     </div>
                   </div>
                   <div className="space-y-3 p-6">
-                    <h3 className="font-display text-2xl font-semibold text-foreground">{p.name}</h3>
+                    <h3 onClick={() => openModal(i)} className=" cursor-pointer font-display text-2xl font-semibold text-foreground">
+                      {p.name}
+                    </h3>
                     <span className="inline-block rounded-full bg-rose-light px-3 py-1 text-xs font-semibold text-primary">{p.dims}</span>
                     <div className="flex items-center gap-2 pt-1">
                       {p.colors.map((c, idx) => (
@@ -197,7 +235,7 @@ const ProductsSection = () => {
                       ))}
                     </div>
                     <p className="text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
-                    <button onClick={() => openModal(i)} className="flex items-center gap-2 pt-1 text-sm font-medium text-primary transition-colors hover:text-primary/80">
+                    <button onClick={() => openModal(i)} className="  flex items-center gap-2 pt-1 text-lg font-medium text-primary transition-colors hover:text-primary/80">
                       <Camera className="h-4 w-4" />
                       Ver más fotos
                     </button>
@@ -212,11 +250,11 @@ const ProductsSection = () => {
       {/* ── Modal — un solo backdrop, dos vistas ─────────────────────────── */}
       {modalOpen && product && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/60 backdrop-blur-sm animate-in fade-in-0 duration-200" onClick={closeModal}>
-          <div className="relative w-[90vw] max-w-lg overflow-hidden rounded-3xl bg-card shadow-float animate-in zoom-in-95 duration-200" onClick={(e) => e.stopPropagation()}>
+          <div className="relative w-[90vw]  max-w-lg overflow-hidden rounded-3xl bg-card shadow-float animate-in zoom-in-95 duration-200" onClick={(e) => e.stopPropagation()}>
             {/* ── VISTA A: Cosmetiquera ─────────────────────────────────── */}
             {modalView === "product" && (
               <>
-                <button onClick={closeModal} className="absolute right-4 top-4 z-10 rounded-full bg-background/80 p-2 text-foreground transition-colors hover:bg-background">
+                <button onClick={closeModal} className="absolute top-4 right-4 z-50 w-10 h-10 flex items-center justify-center rounded-full bg-white/90 shadow-lg">
                   <X className="h-4 w-4" />
                 </button>
 
@@ -226,12 +264,21 @@ const ProductsSection = () => {
                     <div className="product-frame__glow" />
                     <img key={currentImage} src={currentImage} alt={`${product.name} - ${activeColor.name} - ángulo ${angleIndex + 1}`} className="product-frame__image p-6" width={800} height={800} />
                   </div>
-                  <button onClick={() => navigateAngle(-1)} className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-background/80 p-2 text-foreground transition-colors hover:bg-background">
-                    <ChevronLeft className="h-5 w-5" />
-                  </button>
-                  <button onClick={() => navigateAngle(1)} className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-background/80 p-2 text-foreground transition-colors hover:bg-background">
-                    <ChevronRight className="h-5 w-5" />
-                  </button>
+
+                  {/* LEFT AREA */}
+                  <div onClick={() => navigateAngle(-1)} className="absolute left-0 top-0 h-full w-24 z-20 flex items-center justify-center cursor-pointer">
+                    <button className="w-12 h-12 flex items-center justify-center rounded-full bg-white/70 backdrop-blur-md shadow-lg hover:bg-white transition pointer-events-none">
+                      <span className="text-2xl">‹</span>
+                    </button>
+                  </div>
+
+                  {/* RIGHT AREA */}
+                  <div onClick={() => navigateAngle(1)} className="absolute -right-8 top-0 h-full w-24 z-20 flex items-center justify-center cursor-pointer">
+                    <button className="w-12 h-12 flex items-center justify-center rounded-full bg-white/70 backdrop-blur-md shadow-lg hover:bg-white transition pointer-events-none">
+                      <span className="text-2xl">›</span>
+                    </button>
+                  </div>
+
                   <span className="absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-background/80 px-3 py-1 text-xs font-medium text-foreground">
                     {angleIndex + 1} / {activeColor.gallery.length}
                   </span>
@@ -258,7 +305,7 @@ const ProductsSection = () => {
                     <span className="text-sm font-medium text-foreground">{activeColor.name}</span>
                     <button
                       onClick={goToMaterials}
-                      className="ml-auto flex items-center gap-1.5 rounded-full border border-primary/30 bg-rose-light/60 px-3 py-1.5 text-xs font-semibold text-primary transition-all hover:bg-rose-light hover:border-primary/60"
+                      className="hidden ml-auto items-center gap-1.5 rounded-full border border-primary/30 bg-rose-light/60 px-3 py-1.5 text-xs font-semibold text-primary transition-all hover:bg-rose-light hover:border-primary/60"
                     >
                       <Palette className="h-3.5 w-3.5" />
                       Mostrar más materiales

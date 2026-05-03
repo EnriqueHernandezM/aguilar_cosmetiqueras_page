@@ -4,7 +4,6 @@ const features = [
   { icon: Sparkles, title: "Atención al detalle", desc: "Cada pieza es revisada para asegurar la máxima calidad." },
   { icon: Shield, title: "Materiales de alta calidad", desc: "Materiales resistentes cierres y herrajes duraderos en cada cosmetiquera." },
   { icon: Scissors, title: "Costuras reforzadas", desc: "Fabricadas con hilo sintético resistente que no se deshilacha y garantiza mayor durabilidad." },
-  { icon: Palette, title: "Colores tendencia", desc: "Paleta de colores muy variada." },
   { icon: Palette, title: "Variedad de colores", desc: "Disponibles en múltiples colores para adaptarse a tu evento, marca o negocio." },
 ];
 
