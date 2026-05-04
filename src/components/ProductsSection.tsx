@@ -45,6 +45,7 @@ import cuadradaRojaSuperior from "../assets/cuadrada-roja-superior.png";
 
 import personalizada1 from "../assets/personalizadas1.png";
 import personalizada2 from "../assets/pesonalizadas2.png";
+import personalizada3 from "../assets/personalizada3.png";
 
 type ColorOption = {
   name: string;
@@ -96,7 +97,7 @@ const products: {
     dims: "28 cm × 16 cm",
     desc: "Compartimentos internos y bolsillos con cierre. Organiza todo tu maquillaje.",
 
-    colors: [{ name: "Multicolor", gradient: "linear-gradient(135deg, #E6D5B8, #f1c27d, #d89c8a, #cdb4db, #bde0fe, #f3e7e4)", gallery: [personalizada2, personalizada1, personalizada2] }],
+    colors: [{ name: "Multicolor", gradient: "linear-gradient(135deg, #E6D5B8, #f1c27d, #d89c8a, #cdb4db, #bde0fe, #f3e7e4)", gallery: [personalizada2, personalizada1, personalizada3] }],
   },
 ];
 
