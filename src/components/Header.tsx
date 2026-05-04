@@ -52,7 +52,7 @@ ${scrolled ? "h-[78px] md:h-[87px]" : "h-[110px] md:h-[120px]"}
             </>
           ) : (
             <>
-              <Eye className="w-4 h-4" />
+              <Eye className="w-5 h-5" />
               Ver modelos
             </>
           )}

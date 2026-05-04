@@ -36,7 +36,7 @@ const HeroSection = () => {
               <span className="text-gradient">Cosmetiqueras</span>
             </h1>
           </div>
-          <p className="text-lg text-muted-foreground max-w-md leading-relaxed"> Alta calidad y diseño para tu negocio, evento o marca. Fabricamos y distribuimos a mayoreo con envíos a todo México. </p>
+          <p className="text-lg text-muted-foreground max-w-md leading-relaxed"> Alta calidad y diseño mexicano para tu negocio, evento o marca. Fabricamos y distribuimos a mayoreo con envíos a todo México. </p>
           <a
             href={WHATSAPP_URL}
             target="_blank"

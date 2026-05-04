@@ -65,7 +65,7 @@ const products: {
     desc: "Diseño compacto ideal para el día a día.",
     colors: [
       { name: "Rosa Perla", hex: "#E8B4B8", gallery: [cuadradaRosaFrente, cuadradaRosaLateral, cuadradaRosaSuperior] },
-      { name: "Gris", hex: "#c0b9b1", gallery: [cuadradaGrisFrente, cuadradaGrisLateral, cuadradaGrisSuperior] },
+      { name: "Plata", hex: "#c0b9b1", gallery: [cuadradaGrisFrente, cuadradaGrisLateral, cuadradaGrisSuperior] },
       { name: "Perla", hex: "#dad2c7", gallery: [cuadradaPerlaFrente, cuadradaPerlaLateral, cuadradaPerlaSuperior] },
       { name: "Roja", hex: "#bd071d", gallery: [cuadradaRojaFrente, cuadradaRojaLateral, cuadradaRojaSuperior] },
     ],
@@ -221,6 +221,7 @@ const ProductsSection = () => {
                     <h3 onClick={() => openModal(i)} className=" cursor-pointer font-display text-2xl font-semibold text-foreground">
                       {p.name}
                     </h3>
+
                     <span className="inline-block rounded-full bg-rose-light px-3 py-1 text-xs font-semibold text-primary">{p.dims}</span>
                     <div className="flex items-center gap-2 pt-1">
                       {p.colors.map((c, idx) => (
@@ -233,6 +234,12 @@ const ProductsSection = () => {
                           style={{ background: c.gradient ? c.gradient : c.hex }}
                         />
                       ))}
+                      <span
+                        onClick={() => openModal(i)}
+                        className="cursor-pointer inline-block mt-1 rounded-full bg-white/70 backdrop-blur ml-4 px-3 py-1 text-base font-medium text-foreground shadow-sm border border-white/60"
+                      >
+                        {color.name}
+                      </span>
                     </div>
                     <p className="text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
                     <button onClick={() => openModal(i)} className="  flex items-center gap-2 pt-1 text-lg font-medium text-primary transition-colors hover:text-primary/80">

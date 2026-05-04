@@ -14,7 +14,7 @@ const AboutSection = () => {
               Sobre <span className="text-gradient">nosotros</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              Somos una empresa familiar mexicana con más de 10 años de experiencia en la fabricación de cosmetiqueras de alta calidad. Cada producto es elaborado con dedicación, cuidando cada detalle para ofrecer un
+              Somos una empresa familiar mexicana con más de 25 años de experiencia en la fabricación de cosmetiqueras de alta calidad. Cada producto es elaborado con dedicación, cuidando cada detalle para ofrecer un
               acabado premium.
             </p>
             <p className="text-muted-foreground leading-relaxed">
